@@ -1,22 +1,12 @@
 import type { NextPage } from 'next'
-import { Dropdown } from "flowbite-react";
+import Head from 'next/head'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <Dropdown label="Dropdown button">
-      <Dropdown.Item>
-        Dashboard
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Settings
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Earnings
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Sign out
-      </Dropdown.Item>
-    </Dropdown>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
 

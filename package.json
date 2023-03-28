@@ -15,6 +15,7 @@
     "@types/node": "18.15.10",
     "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
+    "@types/react-query": "^1.2.9",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "flowbite": "^1.6.4",
@@ -24,6 +25,7 @@
     "postcss-preset-env": "^8.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-query": "^3.39.3",
     "tailwindcss": "^3.2.7",
     "typescript": "5.0.2"
   },
